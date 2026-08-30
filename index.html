@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Personal Portfolio</title>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="dark-theme">
+
+  <!-- TOP NAVIGATION BAR -->
+  <header class="header">
+    <a href="#home" class="logo">Portfolio<span>.</span></a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+    <nav class="navbar" id="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i> 
+      </button>
+
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+   <main>
+
+    <!-- 1. HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="small-title">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm </h1>
+        <h1>Dinithi Sadunika</h1>
+        
+        <h3 class="typing-text">
+         <span id="changing-text"></span><span class="cursor">|</span>
+        </h3>
+
+        <p>
+          Passionate about software development, problem-solving, and UI/UX design,<br>
+          creating innovative and user-focused digital solutions.<br>
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View My Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+        <br>
+
+      </div>
+
+      <!-- CIRCULAR INTERACTIVE PROFILE PHOTO -->
+        <div class="profile-photo" id="profile-frame">
+          <img src="c:\Users\Dinithi\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\0902C1CFAC67A3A28D777256B992A383ED89ED93\transfers\2026-35\WhatsApp Image 2026-08-29 at 13.41.31.jpeg" alt="Dinithi Sadunika Profile Picture" class="profile-photo">
+        </div>
+      
+    </section>
+
+    
+    <!-- 2. ABOUT ME SECTION -->
+    <section class="section" id="about">
+      <div class="section-title">
+         
+            <span class="section-tag">GET TO KNOW ME</span>
+            <h2>About Me</h2>
+         </div>
+      
+
+      <div class="about-grid">
+        <div >
+          <h3 class="gradient-topic"> Summary </h3>
+          <p>
+           I am a Bachelor of Science (BSc) Software Engineering undergraduate at 
+           General Sir John Kotelawala Defence University, focused on software development, 
+           web development, UI/UX design, and emerging technologies. I am continuously developing 
+           my skills in programming, databases, graphic design, and software engineering through academic work 
+           and practical projects. I enjoy learning new technologies, solving problems, and turning ideas into creative and user-friendly digital solutions. I am always eager to expand my knowledge and improve my technical and design skills.
+
+          </p>
+          <p>
+            My goal is to become a skilled software engineer while continuously
+            improving my technical and problem-solving abilities.
+          </p>
+        </div>
+
+        <div class="info-box">
+          <div><strong>Name</strong><span>Dinithi Sadunika</span></div>
+          <div><strong>Degree</strong><span>BSc(Hons) Software Engineer</span></div>
+          <div><strong>University</strong><span>General Sir John Kotelawala Defence University</span></div>
+          <div><strong>Status</strong><span>Undergraduate</span></div>
+          <div><strong>Focus</strong><span>Software Engineering</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. EDUCATION SECTION -->
+    <section class="section alt" id="education">
+      <div class="section-title">
+          <span class="section-tag">MY ACADEMIC JOURNEY</span>
+            <h2>Education</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="year">2026 – Present</span>
+              
+                <div class="education-header">
+                  <div class="university-icon">🎓</div>
+
+                    <div>
+                    <h2>BSc (Hons) in Software Engineering</h2>
+                    <h3>General Sir John Kotelawala Defence University</h3>
+                    <p class="edu-dept">Faculty of Computing | Department of CS</p>
+                    </div>
+
+                    <div class="edu-body">
+                    <p>Currently developing knowledge in programming, databases, web development, software engineering, and computing fundamentals.</p>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SKILLS SECTION  -->
+    <section class="section alt" id="skills">
+      <div class="section-title">
+          <span class="section-tag">WHAT I AM LEARNING</span>
+        <h2>My Skills</h2>
+      </div>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card"><div class="skill-icon">&lt;/&gt;</div><h3>HTML & CSS</h3><p>Responsive and modern web interfaces.</p></div>
+        <div class="skill-card"><div class="skill-icon">JS</div><h3>JavaScript</h3><p>Interactive web pages and client-side logic.</p></div>
+        <div class="skill-card"><div class="skill-icon">J</div><h3>Java</h3><p>Object-oriented programming and application logic.</p></div>
+        <div class="skill-card"><div class="skill-icon">C</div><h3>C / C++</h3><p>Programming fundamentals and problem solving.</p></div>
+        <div class="skill-card"><div class="skill-icon">DB</div><h3>SQL & Databases</h3><p>Database design, queries, and data management.</p></div>
+        <div class="skill-card"><div class="skill-icon">Git</div><h3>Git & GitHub</h3><p>Version control and project collaboration.</p></div>
+        <div class="skill-card"><div class="skill-icon">GD</div><h3>Graphic Designing</h3><p>Creating engaging and visually appealing social media posts.</p></div>
+      </div>
+    </section>
+
+     <!-- 5. FEATURED PROJECTS SECTION -->
+    <section class="section" id="projects">
+      <div class="section-title">
+        <div class="section-title-box center"></div>
+          <span class="section-tag">MY RECENT WORK</span>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image">AGRO EYE</div>
+          <div class="project-content">
+            <span class="project-type">Currently Developing</span>
+            <h3>AGRO EYE – Autonomous Crop Health Drone</h3>
+            <p>AGRO EYE is an ongoing smart agriculture project focused on monitoring crop health using drone 
+              imagery and AI-based analysis. The system captures crop images, analyzes them to identify potential 
+              health conditions, and presents the results through a user-friendly web dashboard. The project combines drone 
+              technology, AI, and web development to create a more efficient approach to crop monitoring.
+            </p>
+
+            <div class="tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>database</span>
+              <span>AI</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 6. CONTACT SECTION -->
+    <section class="section contact" id="contact">
+      <div class="section-title">
+        <span class="section-tag">LET'S CONNECT</span>
+        <h2 class="gradient-title">Contact Me</h2>
+      </div>
+      </div>
+
+      <div class="contact-grid">
+        <div>
+          <h3>Have a project or opportunity?</h3>
+          <p>Feel free to get in touch with me. I would be happy to connect and discuss technology, projects, and opportunities.</p>
+
+          <div class="contact-details">
+            <a href="mailto:.dinithisadunika3@gmail.com">
+              <i class="fa-solid fa-envelope"></i>&nbsp; dinithisadunika3@gmail.com</a>
+            <a href="tel:+94714197164">
+              <i class="fa-brands fa-whatsapp"></i>&nbsp; +94 71 419 7164</a>
+            <a href="https://www.linkedin.com/" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>&nbsp; in LinkedIn</a>
+            <a href="#" target="_blank">
+              <i class="fa-brands fa-github"></i>&nbsp; GitHub</a>
+          </div>
+        </div>
+
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Enter Your Name" required>
+          <input type="email" id="email" placeholder="Enter Your Email" required>
+          <textarea id="message" rows="6" placeholder="Enter Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+          <p id="formMessage"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer class="site-footer">
+  <div class="footer-grid">
+
+    <div class="footer-brand">
+      <a href="#home" class="logo">
+        <span class="logo-badge">DS</span>Dinithi<span class="dot">.</span>
+      </a>
+      <p>
+        Bachelor of SE Undergraduate | KDU. Focused on software development, web development, UI/UX design, and emerging technologies..
+      </p>
+
+      <div class="footer-socials">
+        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact Details</h4>
+      <a href="mailto:dinithisadunika3@gmail.com">
+        <i class="fa-solid fa-envelope"></i> dinithisadunika3@gmail.com
+      </a>
+      <a href="tel:+94714197164">
+        <i class="fa-solid fa-phone"></i> +94 71 546 6023
+      </a>
+      <a href="https://www.linkedin.com/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i> dinithi sadunika
+      </a>
+      <a href="#" target="_blank">
+        <i class="fa-brands fa-github"></i> github.com/dinithisadunika
+      </a>
+      <span class="footer-location">
+        <i class="fa-solid fa-location-dot"></i>
+        Faculty of Computing, KDU, Sri Lanka
+      </span>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Dinithi Sadunika. All Rights Reserved.</p>
+    <p>Bachelor of SE Undergraduate | KDU</p>
+  </div>
+
+  <button id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+</footer>
+
+ <!-- Scripts -->
+  <script src="script.js"></script>
+  
+</body>
+</html>
